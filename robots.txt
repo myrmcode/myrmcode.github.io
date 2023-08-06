@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://myrmcode.github.io/sitemap.xml
