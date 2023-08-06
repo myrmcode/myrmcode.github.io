@@ -53,11 +53,52 @@ layout: default
             {%- include latest_posts.html %}
           {%- endif %}
 
-          <!-- Selected papers -->
+          <!-- Selected papers
           {% if page.selected_papers -%}
-            <h2><a href="{{ '/publications/' | relative_url }}" style="color: inherit;">selected publications</a></h2>
+            <h2><a href="{{ '/publications/' | relative_url }}" style="color: inherit;">publications</a></h2>
             {%- include selected_papers.html %}
-          {%- endif %}
+          {%- endif %} -->
+
+           <!-- Selected papers -->
+           <h2><a href="/al-folio/publications/" style="color: inherit;">publications</a></h2>
+           <div class="publications">
+ 
+             <div style="margin-top: 50px; border: 1px solid var(--global-bg-color); padding: 10px; border-left: 3px solid rgb(182, 182, 182); max-width: 1000px; text-align-last: left; margin-bottom: 50px;"> 
+               <img style="margin-bottom: 20px; max-width: 450px;" class="img-fluid rounded z-depth-1 no-shadow smaller-zoom-image" src="/assets/img/publication_preview/AlphaContours.png" alt="AlphaContours" title="AlphaContours" data-zoomable=""> 
+               <h4><a href="http://www-labs.iro.umontreal.ca/~bmpix/pdf/SketchLaplacian.pdf" target="_blank" rel="noopener noreferrer"> Differential Operators on Sketches via Alpha Contours </a>
+               </h4> Mariia Myronova, William Neveu, Mikhail Bessmeltsev <br> <b>SIGGRAPH North America 2023</b> 
+             </div>
+           
+             <div style="margin-top: 50px; border: 1px solid var(--global-bg-color); padding: 10px; border-left: 3px solid rgb(182, 182, 182); max-width: 1000px; text-align-last: left; margin-bottom: 50px;"> 
+               <img style="margin-bottom: 20px; max-width: 450px;" class="img-fluid rounded z-depth-1 no-shadow smaller-zoom-image" src="/assets/img/publication_preview/SymmetryBreaking.png" alt="SymmetryBreaking" title="SymmetryBreaking" data-zoomable=""> 
+               <h4><a href="https://scripts.iucr.org/cgi-bin/paper?S2053273321002254" target="_blank" rel="noopener noreferrer"> On symmetry breaking of dual polyhedra of non-crystallographic group H₃</a>
+               </h4> Mariia Myronova <br> <b>Acta Crystallographica Section A 2021</b> 
+             </div>
+           
+             <div style="margin-top: 50px; border: 1px solid var(--global-bg-color); padding: 10px; border-left: 3px solid rgb(182, 182, 182); max-width: 1000px; text-align-last: left; margin-bottom: 50px;"> 
+               <img style="margin-bottom: 20px; max-width: 450px;" class="img-fluid rounded z-depth-1 no-shadow smaller-zoom-image" src="/assets/img/publication_preview/CentralSplitting.png" alt="CentralSplitting" title="CentralSplitting" data-zoomable=""> 
+               <h4><a href="https://www.mdpi.com/2073-8994/12/11/1828" target="_blank" rel="noopener noreferrer"> Central Splitting of A₂ Discrete Fourier–Weyl Transforms</a>
+               </h4> Jiří Hrivnák, Mariia Myronova, Jiří Patera <br> <b>Symmetry 2020</b> 
+             </div>
+           
+             <div style="margin-top: 50px; border: 1px solid var(--global-bg-color); padding: 10px; border-left: 3px solid rgb(182, 182, 182); max-width: 1000px; text-align-last: left; margin-bottom: 50px;"> 
+               <img style="margin-bottom: 20px; max-width: 450px;" class="img-fluid rounded z-depth-1 no-shadow smaller-zoom-image" src="/assets/img/publication_preview/NestedPolytopes.png" alt="NestedPolytopes" title="NestedPolytopes" data-zoomable=""> 
+               <h4><a href="https://www.mdpi.com/2073-8994/12/10/1737" target="_blank" rel="noopener noreferrer"> Nested Polyhedra and Indices of Orbits of Coxeter Groups of Non-Crystallographic Type </a>
+               </h4> Mariia Myronova, Jiří Patera, Marzena Szajewska <br> <b>Symmetry 2020</b> 
+             </div>
+           
+             <div style="margin-top: 50px; border: 1px solid var(--global-bg-color); padding: 10px; border-left: 3px solid rgb(182, 182, 182); max-width: 1000px; text-align-last: left; margin-bottom: 50px;"> 
+               <img style="margin-bottom: 20px; max-width: 450px;" class="img-fluid rounded z-depth-1 no-shadow smaller-zoom-image" media="(max-width: 200px)" src="/assets/img/publication_preview/DynkinDiagram.png" alt="AlphaContours" title="AlphaContours" data-zoomable=""> 
+               <h4><a href="https://link.springer.com/chapter/10.1007/978-3-030-34072-8_21" target="_blank" rel="noopener noreferrer"> The orthogonal systems of functions on lattices of SU(n+1), n&#60;&#8734; </a>
+               </h4> Mariia Myronova and Marzena Szajewska <br> <b>Geometric Methods in Physics XXXVII 2019</b> 
+             </div>
+           
+             <div style="margin-top: 50px; border: 1px solid var(--global-bg-color); padding: 10px; border-left: 3px solid rgb(182, 182, 182); max-width: 1000px; text-align-last: left; margin-bottom: 50px;"> 
+               <img style="margin-bottom: 20px; max-width: 450px;" class="img-fluid rounded z-depth-1 no-shadow smaller-zoom-image" media="(max-width: 200px)" src="/assets/img/publication_preview/Graphene.png" alt="Graphene" title="Graphene" data-zoomable=""> 
+               <h4><a href="https://link.springer.com/chapter/10.1007/978-3-030-01156-7_35" target="_blank" rel="noopener noreferrer"> Dynamical Generation of Graphene </a>
+               </h4> Mariia Myronova, Emmanuel Bourret <br> <b>Geometric Methods in Physics XXXVII 2019</b> 
+             </div>          
+            </div>
 
           <!-- Social -->
           {%- if page.social %}

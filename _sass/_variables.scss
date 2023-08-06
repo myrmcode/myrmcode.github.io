@@ -8,10 +8,13 @@
 $red-color:           #FF3636 !default;
 $red-color-dark:      #B71C1C !default;
 $orange-color:        #F29105 !default;
-$blue-color:          #0076df !default;
-$blue-color-dark:     #00369f !default;
+$blue-color:          #5D8CCB !default;
+$blue-color-dark:     #0073a4 !default;
 $cyan-color:          #2698BA !default;
 $light-cyan-color:    lighten($cyan-color, 25%);
+$dark-cyan-color:     #055491 !default;
+$text-color:          #0086ae !default;
+$hover-color:         #d53090 !default;
 $green-color:         #00ab37 !default;
 $green-color-lime:    #B7D12A !default;
 $green-color-dark:    #009f06 !default;
